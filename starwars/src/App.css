@@ -6,3 +6,25 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+div.cardHolder {
+  display: flex;
+
+  justify-content: center;
+}
+
+div.cardHolder p.vs {
+  font-size: 5rem;
+  margin: 4rem 0;
+  padding: 0 4rem;
+}
+
+div.winner p {
+  font-size: 2rem;
+  border: 1px solid brown;
+  background-color: lightgrey;
+
+  margin: 2rem auto;
+
+  width: 15rem;
+}
